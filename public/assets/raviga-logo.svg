@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 120" width="540" height="120" fill="none">
+  <defs>
+    <!-- Smooth drop shadow for the official white pill container -->
+    <filter id="pillShadow" x="-10%" y="-15%" width="125%" height="145%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000000" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <!-- Dark Navy Corporate Background as seen in the official asset -->
+  <rect width="540" height="120" rx="16" fill="#091124" />
+
+  <!-- Official High-Contrast White Pill Container without border -->
+  <rect 
+    x="30" 
+    y="26" 
+    width="480" 
+    height="68" 
+    rx="34" 
+    fill="#ffffff" 
+  />
+
+  <g id="raviga-official-brandmark">
+    <!-- Single Continuous Stroke: ECG / Heartbeat Waveform + Underline -->
+    <!-- Starts with baseline, P wave, Q dip, sharp R spike, deep S drop, T wave, then straightens out into the underline running under RAVIGA ENGINEERING -->
+    <path 
+      d="M 56 65 L 76 65 C 80 65 81 60 84 60 C 87 60 88 65 92 65 L 98 65 L 102 70 L 111 34 L 120 77 L 126 65 C 130 65 132 57 137 57 C 141 57 143 65 147 65 L 452 65" 
+      stroke="#0a0f1d" 
+      stroke-width="3.4" 
+      stroke-linecap="round" 
+      stroke-linejoin="round" 
+    />
+    
+    <!-- Terminal Solid Circle / Dot terminating the underline -->
+    <circle cx="458" cy="65" r="5" fill="#0a0f1d" />
+
+    <!-- Official Typography: Heavy Bold RAVIGA + Medium Bold Tracked ENGINEERING -->
+    <text 
+      x="158" 
+      y="59" 
+      font-family="'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+    >
+      <tspan font-weight="900" font-size="23" letter-spacing="0.05em" fill="#0a0f1d">RAVIGA</tspan>
+      <tspan dx="11" font-weight="700" font-size="16.5" letter-spacing="0.17em" fill="#0a0f1d">ENGINEERING</tspan>
+    </text>
+  </g>
+</svg>

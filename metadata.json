@@ -1,0 +1,6 @@
+{
+  "name": "Raviga Engineering Limited",
+  "description": "Ghana's premier telecom field operations, fiber optics infrastructure, and exclusive distributor of UCL Swift, EXFO, and VIAVI precision test equipment.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

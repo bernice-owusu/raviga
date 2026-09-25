@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 70" width="340" height="70" fill="none">
+  <rect width="340" height="70" rx="12" fill="white" />
+  <g transform="translate(14, 11)">
+    <!-- ECG / Heartbeat pulse line -->
+    <path d="M 2 24 L 20 24 Q 24 24 26 21 Q 28 17 31 24 L 34 24 L 37 28 L 44 4 L 51 44 L 57 18 Q 60 24 64 24 L 78 24" 
+          stroke="#0f172a" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" />
+    <!-- Pulse Terminal Dot -->
+    <circle cx="84" cy="24" r="4.5" fill="#0f172a" />
+    
+    <!-- Text Elements -->
+    <text x="102" y="28" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" 
+          font-weight="900" font-size="26" letter-spacing="0.05em" fill="#0f172a">RAVIGA</text>
+    <text x="103" y="42" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" 
+          font-weight="700" font-size="9.5" letter-spacing="0.28em" fill="#334155">ENGINEERING</text>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <!-- Navy Background matching official Raviga brand -->
+  <rect width="64" height="64" rx="14" fill="#091124" />
+  
+  <!-- White Pill Container Badge without border -->
+  <rect x="4" y="14" width="56" height="36" rx="18" fill="#ffffff" />
+  
+  <!-- Authentic Single-Stroke ECG Waveform & Terminal Dot -->
+  <path 
+    d="M 10 33 L 18 33 L 21 36 L 27 19 L 33 43 L 37 33 L 49 33" 
+    stroke="#0a0f1d" 
+    stroke-width="2.8" 
+    stroke-linecap="round" 
+    stroke-linejoin="round" 
+  />
+  <circle cx="53" cy="33" r="3.2" fill="#0a0f1d" />
+</svg>
